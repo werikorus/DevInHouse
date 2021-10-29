@@ -2,7 +2,7 @@ function GetAndShowName(){
   let informed = false;
 
   while(!informed){
-    var name = prompt('Olá! Qual o seu nomeeee?');
+    var name = prompt('Olá! Qual o seu nome?');
 
     if(name!==''){
       window.alert(`Bem vindo! ${name}`);
