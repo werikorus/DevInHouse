@@ -5,9 +5,10 @@ function AskingUser(){
   
   let msg = `Seu nome é ${name}, tem ${age} anos de idade e ${practiceSport?"pratica":"não pratica"} esportes.`;
   let msgSport = `${practiceSport? "Continue praticando esportes.":"Você precisa praticar esportes."}`
-  
+  let finalMsg = `${msg} \n ${msgSport}`;
+
   let paragrafo = document.getElementById("paragrafo");
 
-  paragrafo.innerText = `${msg} \n ${msgSport}`;
-  console.log(msg);
+  paragrafo.innerText = finalMsg;
+  console.log(finalMsg);
 };
