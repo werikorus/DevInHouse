@@ -1,15 +1,6 @@
 var paragrafo = '';
-var atualHour ='';
+var atualHour='';
 var cron ='';
-
-function ShowHoursToUser(){
-  const atualHour = GetAtualHours();  
-  alert(`Bem vindo!\nHora atual: ${atualHour}`);
-};
-
-function checkSate(){
-  cron = setInterval(()=>{GetAtualHours()}, 1000);
-};
 
 function GetAtualHours(){
   let date = new Date();
@@ -26,4 +17,13 @@ function GetAtualHours(){
   paragrafo.innerHTML += `<strong>${atualHour}</strong>`;
 
   return atualHour;
+};
+
+function ShowHoursToUser(){
+  const atualHour = GetAtualHours();  
+  alert(`Bem vindo!\nHora atual: ${atualHour}`);
+};
+
+function checkSate(){
+  cron = setInterval(()=>{GetAtualHours()}, 1000);
 };
