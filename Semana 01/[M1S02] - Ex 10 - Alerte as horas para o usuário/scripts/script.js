@@ -1,5 +1,6 @@
 var paragrafo = '';
 var atualHour='';
+var cron ='';
 
 function GetAtualHours(){
   let date = new Date();
