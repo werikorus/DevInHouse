@@ -1,29 +1,14 @@
-var paragrafo = '';
-var atualHour='';
-var cron ='';
+function CalcPA(){
+  var number1 = parseInt(prompt('Valor inicial: '));
+  var raiz = parseInt(prompt('Raíz: '));
+  var msg = 'P.A = ';
+  var total = number1; 
 
-function GetAtualHours(){
-  let date = new Date();
-  let hour = date.getHours();
-  let minute = date.getMinutes();
+  for(i=1; i<=10; i++){
+    msg += ` ${total},`;
+    total += raiz;
+  };
 
-  atualHour = `${hour}:${minute}`;
-  console.log(atualHour);
-  paragrafo.innerHTML = '';
-  
-  let msg = `\nHora atual: `;
-  paragrafo = document.getElementById('paragrafo');
-  paragrafo.innerText += msg;
-  paragrafo.innerHTML += `<strong>${atualHour}</strong>`;
-
-  return atualHour;
-};
-
-function ShowHoursToUser(){
-  const atualHour = GetAtualHours();  
-  alert(`Bem vindo!\nHora atual: ${atualHour}`);
-};
-
-function checkSate(){
-  cron = setInterval(()=>{GetAtualHours()}, 1000);
+  let paragrafo = document.getElementById('paragrafo');
+  paragrafo.innerText = `Valor inicial: ${number1}\n Raiz: ${raiz}\n${msg}`;
 };
