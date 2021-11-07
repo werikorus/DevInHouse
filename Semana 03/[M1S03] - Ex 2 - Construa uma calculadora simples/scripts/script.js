@@ -11,6 +11,7 @@ function Calc(button){
   }else{
     alert('Para calcular, informe números válidos!');
   };
+
 }; 
 
 function Clear(){
