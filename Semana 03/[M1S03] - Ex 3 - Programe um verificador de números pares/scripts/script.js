@@ -5,6 +5,7 @@ function Check(){
   if(!isNaN(number)){
     const total = number%2;
     const result = (total==0)?"Par":"Ímpar";
+    
     const button = '<button> <a href="/"  style="text-decoration:none;">Voltar </a></button>';
     const msg = `O número ${number} é <strong>${result}</strong> ${button}`;
     viewResult.innerHTML = msg;
