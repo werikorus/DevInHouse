@@ -6,34 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <script type="text/javascript" src="/scripts/script.js"></script>
-  <link rel="shortcut icon" href="./../[M1S03] - Ex 2 - Construa uma calculadora simples/assets/favicon.ico" />
-  <title>DevInHouse [M1S02]</title>
+  <title>DevInHouse [M1S03]</title>
 </head>
 <body>
   <main>
-    <header id="title">
-      <h1>Exercício 02   semana 3</h1>  
-    </header>
-    <section>
-      <div id="card">
-        <div id="rec" novalidate="false">
-          <label for="">Calculadora</label>
-          <input type="number" name="dateage" id="n1" style="width:75px;">
-          <input type="number" name="dateage" id="n2" style="width:75px;">
-          <br />
-  
-          <div class="divButtons">
-            <button class="calcButtons" value="+" onclick={Calc(this)}>+</button>
-            <button class="calcButtons" value="-" onclick={Calc(this)}>-</button>
-            <button class="calcButtons" value="/" onclick={Calc(this)}>÷</button>
-            <button class="calcButtons" value="*" onclick={Calc(this)}>x</button>
-          </div>
+    <div id="card">
+      <header id="title">
+        <h1>Exercício 01 semana 3</h1>
+        <hr>
+      </header>
+      <p id="paragrafo">Bem vindo!</p>
 
-          <label for="">Total:</label>
-          <input type="text" name="" id="totalCalc" style="width:75px;" placeholder="0">
-        </d>
+      <div id="rec">
+        <label for="">Insira sua data de nascimento:</label>
+        <br />
+        <input type="date" name="dateage" id="bornDate">
+        <br />
+        <button onclick={CalcAge()}>Calcular idade</button>
       </div>
-    </section>
+    </div>
   </main>
 </body>
-</html>
+</html> 

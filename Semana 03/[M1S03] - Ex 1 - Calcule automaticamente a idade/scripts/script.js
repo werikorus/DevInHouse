@@ -1,18 +1,17 @@
-function Calc(button){
-  const value1 = document.getElementById('n1').value;
-  const value2 = document.getElementById('n2').value;
-  var op = button.value;
+function CalcAge(){
+  let today = Date.parse(new Date());
+  let birth = Date.parse(document.getElementById('bornDate').value);
+  let difInTicks   = Math.abs(today-birth);
+  let convertInDays = Math.ceil(difInTicks/(1000*60*60*24));
+  let age = (convertInDays/365.25).toFixed();
 
-  if(!(value1==="")||!(value2==="")){
-    var total = eval(`${value1}${op}${value2}`);
-    var viewTotal = document.getElementById('totalCalc');
-    viewTotal.value = `${(total)}`;
-    console.log(total);
+  if(isNaN(age)){
+    alert('Para calcular, informe uma data válida!');
   }else{
-    alert('Para calcular, informe números válidos!');
+    let view = document.getElementById('rec');
+    let paragrafo = document.getElementById('paragrafo');
+    paragrafo.innerText = '';
+    view.innerHTML  = `Sua idade é: <strong>${age}</strong>\n`;
+    view.innerHTML += '<button> <a href="/"  style="text-decoration:none;">voltar </a></button>'
   };
-}; 
-
-function Clear(){
-  viewTotal.value = '';
-}
+};
