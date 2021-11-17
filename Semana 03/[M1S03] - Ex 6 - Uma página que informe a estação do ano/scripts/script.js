@@ -10,7 +10,7 @@ function GetAtualSeason(){
   const hour = date.getHours();
   const min  = date.getMinutes();
 
-  const summer = ((day>=21||day<=21)&&(month>=12)&&(month<=3));
+  const summer = ((day>=22||day<=21)&&(month>=12)&&(month<=3));
   const autumn = ((day>=22||day<=21)&&(month>=3)&&(month<=12)); 
   const winter = ((day>=22||day<=21)&&(month>=6)&&(month<=9));
   const spring = ((day<=21||day>=22)&&(month>=9)&&(month<=12));
