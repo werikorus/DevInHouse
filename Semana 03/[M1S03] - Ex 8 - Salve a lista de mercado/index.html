@@ -17,13 +17,14 @@
     <section>
       <div id="card">
         <form id="inputText" onsubmit="return false">
-          <label for="">Item a adicionar:</label>
+          <label for="">Item a adicionar: </label>
           <input type="text" id="textInput">
-          <button id="button" onclick={InsertItem()}>Adicionar</button>
+          <button id="buttonAdd" onclick={InsertItem()}>Adicionar</button>
         </form>
         <select id="lista">
           <option value="">Minha lista</option>
         </select>
+        <button id="buttonSave" onclick={SalvarLista()}>Salvar Lista</button>
       </div>
     </section>
   </main>
