@@ -3,11 +3,9 @@ function InsertItem(){
 
   if(description.length!=0){ 
   const item = document.createElement("OPTION");
-  const label = document.createElement("LABEL");
-  const labeltext = document.createTextNode(description);
-        label.appendChild(labeltext);
- 
-  item.appendChild(label);
+  const text = document.createTextNode(description);
+        item.appendChild(text);
+        
   console.log(description.length);
 
   let select = document.getElementById('lista');
