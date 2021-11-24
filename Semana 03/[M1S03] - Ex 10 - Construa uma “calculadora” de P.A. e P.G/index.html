@@ -16,11 +16,18 @@
     <section>
       <div id="card">
         <form id="inputText" onsubmit="return false">
-          <label for="">Item a adicionar: </label>
-          <input type="number" id="n1">
-          <input type="number" id="n2">
-          <button id="buttonAdd" onclick={InsertItem()}>Adicionar</button>
+          <label for="">Valor inicial: </label>
+          <input type="number" id="inicial">
+
+          <label for="">Raíz:</label>
+          <input type="number" id="raiz">
+
+          <button id="btnCalcPA" onclick={Calcular(1)}>Calcular P.A</button>
+          <button id="btnCalcPG" onclick={Calcular(2)}>Calcular P.G</button>
         </form>
+
+        <p>Total:</p>
+        <p id="total">0</p>
     </div>
     </section>
   </main>

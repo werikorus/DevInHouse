@@ -25,13 +25,22 @@ main{
 #card{
   display: flex;
   width: 25rem;
-  height: 9.5rem;
+  height: 16rem;
   border: solid 1px black;
   border-radius: 15px;
   flex-direction: column;
   align-items: center;
+  align-content: center;
 }
 
 form{
+  max-width: 300px;
+  display: grid;
   margin-top: 1rem;
+  justify-content: center;
+  align-self: center;
+}
+
+button{
+  margin-top: 2mm;
 }
