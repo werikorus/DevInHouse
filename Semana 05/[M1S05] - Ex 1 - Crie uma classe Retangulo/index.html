@@ -15,16 +15,19 @@
   <main>
     <section>
       <div id="card">
-         <p>O código está no JS!</p>
+         <p id="paragrafo"></p>
          <code>
            <script>
-             const retangulo = [new Retangulo(1,1),
-                                new Retangulo(2,2), 
-                                new Retangulo(3,3)];
+             const retangulo = [new Retangulo(11.2,14.5),
+                                new Retangulo(22,24), 
+                                new Retangulo(35.2,36.7)];
 
-            for(i=0; i<=retangulo.length-1;i++){
-              console.log(retangulo[i]);
-            }
+            const card = document.getElementById('card');
+            for(i=0; i<=retangulo.length;i++){
+              const p = document.getElementById('paragrafo');
+              p.innerText += `\nTriangulo ${i}:
+                             Altura: ${retangulo[i].altura} Largura: ${retangulo[i].largura}\n`;
+            };
            </script>
          </code>
       </div>
