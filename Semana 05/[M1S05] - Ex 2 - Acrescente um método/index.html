@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="/scripts/script.js"></script>
+  <title>DevInHouse [M2S05]</title>
+</head>
+<body>
+  <header id="title">
+    <h1>Exercício 02 semana 5</h1> 
+  </header>
+  <main>
+    <section>
+      <div id="card">
+         <p id="paragrafo"></p>
+         <code>
+           <script>
+             const retangulo = [new Retangulo(11.3, 14.5),
+                                new Retangulo(22.3, 24.9), 
+                                new Retangulo(35.2, 36.7)];
+
+            const card = document.getElementById('card');
+            
+            for(i=0; i<=retangulo.length;i++){
+              const p = document.getElementById('paragrafo');
+              p.innerText += `\nTriangulo ${i}:
+                             Altura: ${retangulo[i].altura} 
+                             Largura: ${retangulo[i].largura}
+                             Total: ${retangulo[i].calcularArea()}\n`;
+            };
+           </script>
+         </code>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
