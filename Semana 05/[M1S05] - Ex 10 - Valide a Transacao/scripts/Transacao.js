@@ -51,10 +51,50 @@ export class Transacao {
     this._contaTransferencia = contaTransferencia;
     this._data = data;
   };
+  
+  static executarTransacao(){
+    try{
+      if (conta==""||contaTransferencia==""){
+        new Error("Conta ou Conta-transferência não foi informado!")
+      }else{
+        
+        if (conta!==""&&contaTransferencia==""){
+          this.deposito(this.conta, this._valorDaTransacao);
+        }else{
+          this.transferencia(this.conta, this._valorDaTransacao);
+        }
+      };
 
-  static transferencia(contaDestino){
+    }catch(e)
+    {
+      alert(e);
+    }
+  };
+  
+  static transferencia(contaDestino, valor){ 
     contaTransferencia = contaDestino;
-  }
+    
+    try{
+      if(valor > 300) new Error("O valor da transação não pode ser maior que R$ 300,00!");
 
+      let contaReceptor =  new Conta(contaDestino, valor, "Cliente Transferência");
+    }
+    catch(e){
+      alert(e);
+    }
+  };
+    
+  static deposito(contaDestino, valor){ 
+    contaTransferencia = contaDestino;
+    
+    try{
+      if(valor > 300) new Error("O valor da transação não pode ser maior que R$ 300,00!");
+
+      let contaReceptor =  new Conta(contaDestino, valor, "Cliente Deposito");
+    }
+    catch(e){
+      alert(e);
+    }
+  };
   
 }
