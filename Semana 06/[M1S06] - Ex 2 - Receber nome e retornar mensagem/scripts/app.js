@@ -1,15 +1,19 @@
 import { Endereco } from './Endereco.js';
 import { Cliente } from './Cliente.js';
 
+const mensagemOla = (nome) =>{
+      if(nome!=''){
+        alert('Olá, ' + nome);
+      }else{
+        alert('Bem vindo usuário!');
+      }
+};
+    
+window.onload = mensagemOla('Werik');
+
 const myForm = document.getElementById('myForm');
       myForm.addEventListener('submit', saveCustomer);
-
-
-const mensagemOla = (nome) =>{
-      alert('Olá mundo!');
-};
       
-window.onload = mensagemOla('Werik');      
 
 function saveCustomer(event){
   event.preventDefault();
@@ -43,3 +47,4 @@ function saveCustomer(event){
                         País: ${newCustomer.endereco.pais}
                         Cep: ${newCustomer.endereco.cep}`;
 };
+
