@@ -2,30 +2,25 @@ import { Endereco } from './Endereco.js';
 import { Cliente } from './Cliente.js';
 
 const mensagemOla = (nome) =>{
-      if(nome!=''){
-        alert('Olá, ' + nome);
-      }else{
-        alert('Bem vindo usuário!');
-      }
+  if(nome!=''){
+    alert('Olá, ' + nome);
+  }else{
+    alert('Bem vindo usuário!');
+  }
 };
     
 window.onload = mensagemOla('Werik');
-
-
-const arrayNumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-const arrayInvertido = [];
 
 const myForm = document.getElementById('myForm');
       myForm.addEventListener('submit', saveCustomer);
 
 const inverteNumeros = () => {
-  
-
-  for(var i=0; i<=arrayNumeros.length; i++){
-    arrayInvertido.push(arrayNumeros);
-  };
-
+  const arrayNumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
   console.log(arrayNumeros);
+
+  const arrayInvertido = [];
+  arrayInvertido.push(arrayNumeros.reverse());
+  
   console.log(arrayInvertido);
 };
 

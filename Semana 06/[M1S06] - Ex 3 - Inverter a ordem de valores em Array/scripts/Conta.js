@@ -40,5 +40,4 @@ export class Conta {
     this._saldo = saldo;
     this._cliente = new Cliente();
   };
-  
 }
