@@ -57,18 +57,6 @@ const funcionarios = [
 ];
 
 
-function calcularSalarios(workers){
-  let total = 0.0;
-
-  for(let i=0; i<=workers.length-1; i++){ 
-    total = total + workers[i].salario;
-  };
-  
-  console.log("Total de salários: R$", total.toFixed(2));
-};
-
-calcularSalarios(funcionarios);
-
 funcionarios.forEach(item => item.imprime());
 
 const myForm = document.getElementById('myForm');
