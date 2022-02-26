@@ -1,6 +1,6 @@
 using System;
 
-namespace practice_class_api
+namespace practiceAPI
 {
     public class WeatherForecast
     {
