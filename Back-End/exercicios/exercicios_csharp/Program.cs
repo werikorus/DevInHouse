@@ -1,5 +1,6 @@
 ﻿using System;
 using exercicios_csharp.Entities;
+using System.Collections.Generic;
 
 namespace exercicios_csharp
 {
@@ -7,16 +8,20 @@ namespace exercicios_csharp
     {
         static void Main(string[] args)
         {
-            Console.Write("Informe o raio: ");
-            double raio = float.Parse(Console.ReadLine());
+            Console.WriteLine("Informe 5 números: ");
 
-            CalcularRaio calcular = new CalcularRaio(raio);
+            List<int> numeros = new List<int>();
 
-            double total = calcular.CalcularRaioCirculo();
+            for(var i=0; i<=5; i++)
+            {
+                numeros.Add(int.Parse(Console.ReadLine()));
+            }
 
+            QualMaiorNumero MaiorNumero = new QualMaiorNumero(numeros);
 
-            Console.WriteLine($"O total da área é : {total}");
+            int MaxNumber = MaiorNumero.AcharMaiorNumero();
 
+            Console.WriteLine($"O maior número é: {MaxNumber}");
         }
     }
 }
