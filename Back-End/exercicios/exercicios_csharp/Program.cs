@@ -8,7 +8,7 @@ namespace exercicios_csharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Informe 5 números: ");
+            Console.WriteLine("Informe 7 números: ");
 
             List<int> numeros = new List<int>();
 
@@ -17,11 +17,11 @@ namespace exercicios_csharp
                 numeros.Add(int.Parse(Console.ReadLine()));
             }
 
-            QualMaiorNumero MaiorNumero = new QualMaiorNumero(numeros);
+            QualMenorNumero MenorNumero = new QualMenorNumero(numeros);
 
-            int MaxNumber = MaiorNumero.AcharMaiorNumero();
+            int MinNumber = MenorNumero.AcharMenorNumero();
 
-            Console.WriteLine($"O maior número é: {MaxNumber}");
+            Console.WriteLine($"O menor número é: {MinNumber}");
         }
     }
 }
