@@ -1,6 +1,5 @@
 ﻿using System;
 using exercicios_csharp.Entities;
-using System.Collections.Generic;
 
 namespace exercicios_csharp
 {
@@ -8,20 +7,11 @@ namespace exercicios_csharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Informe 7 números: ");
-
-            List<int> numeros = new List<int>();
-
-            for(var i=0; i<=5; i++)
-            {
-                numeros.Add(int.Parse(Console.ReadLine()));
-            }
-
-            QualMenorNumero MenorNumero = new QualMenorNumero(numeros);
-
-            int MinNumber = MenorNumero.AcharMenorNumero();
-
-            Console.WriteLine($"O menor número é: {MinNumber}");
+            Console.WriteLine("Informe um número inteiro positivo: ");
+            int numero = int.Parse(Console.ReadLine());
+            InverterNumeros invert = new InverterNumeros(numero);
+            int numeroInvertido = invert.Inverter();
+            Console.WriteLine($"O número invertido é: {numeroInvertido}");
         }
     }
 }
