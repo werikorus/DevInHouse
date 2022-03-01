@@ -1,5 +1,6 @@
 ﻿using System;
 using exercicios_csharp.Entities;
+using System.Collections.Generic;
 
 namespace exercicios_csharp
 {
@@ -7,11 +8,15 @@ namespace exercicios_csharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Informe um número inteiro positivo: ");
-            int numero = int.Parse(Console.ReadLine());
-            InverterNumeros invert = new InverterNumeros(numero);
-            int numeroInvertido = invert.Inverter();
-            Console.WriteLine($"O número invertido é: {numeroInvertido}");
+            Console.WriteLine("Informe 10 números: ");
+            List<int> numeros = new List<int>();
+            for(var i=1; i<=10; i++)
+            {
+                numeros.Add(int.Parse(Console.ReadLine()));
+            }
+            Ordenacao Ordenacao = new Ordenacao(numeros);
+            Console.WriteLine($"Números ordenados descrescente: ");
+            Ordenacao.OrdenarNumeros();
         }
     }
 }
