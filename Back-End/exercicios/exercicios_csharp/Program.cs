@@ -8,27 +8,15 @@ namespace exercicios_csharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Informe 3 lados de um triângulo!");
-            Console.Write("Lado A: ");
-            double A = double.Parse(Console.ReadLine());
-            
-            Console.Write("Lado B: ");
-            double B = double.Parse(Console.ReadLine());
+            Console.Write("Informe o caminho do arquivo JSON: ");
+            string caminho = Console.ReadLine();
 
-            Console.Write("Lado C: ");
-            double C = double.Parse(Console.ReadLine());
+            LerArquivo ReadAndProcessFile = new(caminho);
 
-            Triangulo triangulo = new(A, B, C);
+            string alunoNotaBaixa = ReadAndProcessFile.VerificarAlunosNotaBaixa();
 
-            if (!triangulo.VerificarTriangulo())
-            {
-                Console.WriteLine("Não pode ser um triângulo!");
-            }
-            else
-            {
-                string tipoTriangulo = triangulo.TipoTriangulo();
-                Console.WriteLine($"O tipo do triângulo é: {tipoTriangulo}");
-            }
+            Console.WriteLine("Alunos que tiraram nota baixa: ");
+            Console.WriteLine(alunoNotaBaixa);
 
         }
     }
