@@ -11,13 +11,9 @@ namespace exercicios_csharp
             Console.Write("Informe o caminho do arquivo JSON: ");
             string caminho = Console.ReadLine();
 
-            LerArquivo ReadAndProcessFile = new(caminho);
+            Reprovados ReadAndProcessFile = new(caminho);
 
-            string alunoNotaBaixa = ReadAndProcessFile.VerificarAlunosNotaBaixa();
-
-            Console.WriteLine("Alunos que tiraram nota baixa: ");
-            Console.WriteLine(alunoNotaBaixa);
-
+            ReadAndProcessFile.VerificaESalvaAlunosNotaBaixa();
         }
     }
 }

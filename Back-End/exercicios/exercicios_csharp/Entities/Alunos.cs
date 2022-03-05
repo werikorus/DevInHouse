@@ -24,10 +24,5 @@ namespace exercicios_csharp.Entities
             Serie = serie;
             Nota = nota;
         }
-
-        internal bool ToList()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
