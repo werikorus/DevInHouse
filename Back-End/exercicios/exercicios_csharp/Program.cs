@@ -1,6 +1,7 @@
 ﻿using System;
 using exercicios_csharp.Entities;
 using System.Collections.Generic;
+using System.Collections;
 
 namespace exercicios_csharp
 {
@@ -8,12 +9,31 @@ namespace exercicios_csharp
     {
         static void Main(string[] args)
         {
-            Console.Write("Informe o caminho do arquivo JSON: ");
-            string caminho = Console.ReadLine();
+            Console.Write("Informe quantos funcionários quer reajustar o salário: ");
+            int n = int.Parse(Console.ReadLine());
 
-            Reprovados ReadAndProcessFile = new(caminho);
+            List<Funcionario> Pessoas = new List<Funcionario>();
 
-            ReadAndProcessFile.VerificaESalvaAlunosNotaBaixa();
+            for (int i = 1; i <= n; i++)
+            {
+                Console.WriteLine($"Funcionário #0{i}");
+
+                Console.Write("Nome: ");
+                string nome = Console.ReadLine();
+
+                Console.Write("Cargo: ");
+                string cargo = Console.ReadLine();
+
+                Console.Write("Salário: ");
+                double salario = double.Parse(Console.ReadLine());
+
+                Funcionario funcionario = new(nome, cargo, salario);
+
+                Pessoas.Add(funcionario);
+            }
+
+            GerenciadorSalario Gerenciador = new GerenciadorSalario(Pessoas);
+            Gerenciador.GerenciarSalario();
         }
     }
 }
