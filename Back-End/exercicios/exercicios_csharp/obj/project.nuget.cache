@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nm8wcpBnfF64Czrz37OTMJL+HG2J+OUeTxleWtxzqT+yULmozUq7OtXMkDnVit/bgZFKYoNcTo2XFNNodmEmog==",
+  "dgSpecHash": "16vX4HHTN/dbb5UcKMP3N4s0B0JwNaqlY0rLXvSg1390LRXgTgKre1/hU7iwf5RDsn9tMbPmpPOAHBXxvMMEJA==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\exercicios\\exercicios_csharp\\exercicios_csharp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\werik\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

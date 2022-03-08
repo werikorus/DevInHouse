@@ -9,17 +9,13 @@ namespace exercicios_csharp.Entities
     class QualMenorNumero
     {
         public List<int> ListaNumeros { get; set; }
-
         public QualMenorNumero(List<int> listaNumeros)
         {
             ListaNumeros = listaNumeros;
         }
-
         public QualMenorNumero()
         {
-
         }
-
         public int AcharMenorNumero()
         {
             return this.ListaNumeros.Min();
