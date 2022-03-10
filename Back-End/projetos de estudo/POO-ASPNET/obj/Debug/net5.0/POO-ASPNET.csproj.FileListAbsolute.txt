@@ -27,3 +27,32 @@ C:\Projetos\C#\POO-ASPNET\obj\Debug\net5.0\POO-ASPNET.dll
 C:\Projetos\C#\POO-ASPNET\obj\Debug\net5.0\ref\POO-ASPNET.dll
 C:\Projetos\C#\POO-ASPNET\obj\Debug\net5.0\POO-ASPNET.pdb
 C:\Projetos\C#\POO-ASPNET\obj\Debug\net5.0\POO-ASPNET.genruntimeconfig.cache
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\obj\Debug\net5.0\POO-ASPNET.csproj.AssemblyReference.cache
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\obj\Debug\net5.0\POO-ASPNET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\obj\Debug\net5.0\POO-ASPNET.AssemblyInfoInputs.cache
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\obj\Debug\net5.0\POO-ASPNET.AssemblyInfo.cs
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\obj\Debug\net5.0\POO-ASPNET.csproj.CoreCompileInputs.cache
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\obj\Debug\net5.0\POO-ASPNET.MvcApplicationPartsAssemblyInfo.cs
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\obj\Debug\net5.0\POO-ASPNET.MvcApplicationPartsAssemblyInfo.cache
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\obj\Debug\net5.0\POO-ASPNET.dll
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\obj\Debug\net5.0\ref\POO-ASPNET.dll
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\obj\Debug\net5.0\POO-ASPNET.pdb
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\bin\Debug\net5.0\appsettings.Development.json
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\bin\Debug\net5.0\appsettings.json
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\bin\Debug\net5.0\POO-ASPNET.exe
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\bin\Debug\net5.0\POO-ASPNET.deps.json
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\bin\Debug\net5.0\POO-ASPNET.runtimeconfig.json
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\bin\Debug\net5.0\POO-ASPNET.runtimeconfig.dev.json
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\bin\Debug\net5.0\POO-ASPNET.dll
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\bin\Debug\net5.0\ref\POO-ASPNET.dll
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\bin\Debug\net5.0\POO-ASPNET.pdb
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\obj\Debug\net5.0\staticwebassets\POO-ASPNET.StaticWebAssets.Manifest.cache
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\obj\Debug\net5.0\staticwebassets\POO-ASPNET.StaticWebAssets.xml
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\obj\Debug\net5.0\scopedcss\bundle\POO-ASPNET.styles.css
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\obj\Debug\net5.0\POO-ASPNET.RazorTargetAssemblyInfo.cache
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\obj\Debug\net5.0\POO-ASPNET.csproj.CopyComplete
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\POO-ASPNET\obj\Debug\net5.0\POO-ASPNET.genruntimeconfig.cache
