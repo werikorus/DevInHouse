@@ -708,11 +708,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\practice-class-console\\practice-class-console.csproj",
+      "projectUniqueName": "c:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\practice-class-console\\practice-class-console.csproj",
       "projectName": "practice-class-console",
-      "projectPath": "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\practice-class-console\\practice-class-console.csproj",
+      "projectPath": "c:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\practice-class-console\\practice-class-console.csproj",
       "packagesPath": "C:\\Users\\werik\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\practice-class-console\\obj\\",
+      "outputPath": "c:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\practice-class-console\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -732,8 +732,8 @@
         "netcoreapp2.2": {
           "targetAlias": "netcoreapp2.2",
           "projectReferences": {
-            "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\practice-project\\practice-project.csproj": {
-              "projectPath": "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\practice-project\\practice-project.csproj"
+            "c:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\practice-project\\practice-project.csproj": {
+              "projectPath": "c:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\practice-project\\practice-project.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yi6EQviOfufLLE+HM7xTarLRHiXHGhpjsV8MzB8gd/BKawzhFjaOI6/bzz6qAUltlaAnuOsCePuJVi67gIE04A==",
+  "dgSpecHash": "fL+ZMPFQsl5+CuxRO/KpLx3+yeUzCg9IZb5DaVOpSU4gzVdoP661Uz5C7PbdnAE1UYcwQr+QO0gewIvjYUEQ0g==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\projetos de estudo\\POO-ASPNET\\POO-ASPNET.csproj",
+  "projectFilePath": "c:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\projetos de estudo\\POO-ASPNET\\POO-ASPNET.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\werik\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\werik\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

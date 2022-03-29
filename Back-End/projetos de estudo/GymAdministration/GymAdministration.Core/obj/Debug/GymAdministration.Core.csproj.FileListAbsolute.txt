@@ -1,0 +1,6 @@
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\GymAdministration\GymAdministration.Core\bin\Debug\GymAdministration.Core.dll
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\GymAdministration\GymAdministration.Core\bin\Debug\GymAdministration.Core.pdb
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\GymAdministration\GymAdministration.Core\obj\Debug\GymAdministration.Core.csproj.AssemblyReference.cache
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\GymAdministration\GymAdministration.Core\obj\Debug\GymAdministration.Core.csproj.CoreCompileInputs.cache
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\GymAdministration\GymAdministration.Core\obj\Debug\GymAdministration.Core.dll
+C:\Projetos\DevinHouse\DevInHouse\Back-End\projetos de estudo\GymAdministration\GymAdministration.Core\obj\Debug\GymAdministration.Core.pdb

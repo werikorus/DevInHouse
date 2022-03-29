@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\practiceAPI\\practiceAPI.csproj": {}
+    "c:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\practiceAPI\\practiceAPI.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\practiceAPI\\practiceAPI.csproj": {
+    "c:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\practiceAPI\\practiceAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\practiceAPI\\practiceAPI.csproj",
+        "projectUniqueName": "c:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\practiceAPI\\practiceAPI.csproj",
         "projectName": "practiceAPI",
-        "projectPath": "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\practiceAPI\\practiceAPI.csproj",
+        "projectPath": "c:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\practiceAPI\\practiceAPI.csproj",
         "packagesPath": "C:\\Users\\werik\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\practiceAPI\\obj\\",
+        "outputPath": "c:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\practiceAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

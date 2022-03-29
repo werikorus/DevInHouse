@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UlAAEeXMOYwALv1fEh1DdDKFk5iL6+0fpYP9D5QYReig4792EtP+xhgx6ZEhoijvloIwxHOx3a2Fb5rjc818kA==",
+  "dgSpecHash": "NjOjN5RJXt3/3F0IgwNm7BgCGrjsQ9lqdycRSAo8oyCpOEajgoqr84gOrGpikY617048ujQePo5R5qvSR6+BhQ==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\practice-class-console\\practice-class-console.csproj",
+  "projectFilePath": "c:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\practice-class-console\\practice-class-console.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",

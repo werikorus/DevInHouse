@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\projetos de estudo\\POO-ASPNET\\POO-ASPNET.csproj": {}
+    "c:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\projetos de estudo\\POO-ASPNET\\POO-ASPNET.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\projetos de estudo\\POO-ASPNET\\POO-ASPNET.csproj": {
+    "c:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\projetos de estudo\\POO-ASPNET\\POO-ASPNET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\projetos de estudo\\POO-ASPNET\\POO-ASPNET.csproj",
+        "projectUniqueName": "c:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\projetos de estudo\\POO-ASPNET\\POO-ASPNET.csproj",
         "projectName": "POO-ASPNET",
-        "projectPath": "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\projetos de estudo\\POO-ASPNET\\POO-ASPNET.csproj",
+        "projectPath": "c:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\projetos de estudo\\POO-ASPNET\\POO-ASPNET.csproj",
         "packagesPath": "C:\\Users\\werik\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\projetos de estudo\\POO-ASPNET\\obj\\",
+        "outputPath": "c:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\projetos de estudo\\POO-ASPNET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
