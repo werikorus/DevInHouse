@@ -8,5 +8,6 @@ namespace GymAdministration.Core.Entities
 {
     class Student
     {
+
     }
 }

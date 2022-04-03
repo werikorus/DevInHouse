@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace GymAdministration.Core
 {
-    class StatusEnum
+    enum StatusEnum
     {
+        Inactive = 0,
+        Active = 1
     }
 }
  
