@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace GrymAdministrationConsole
 {
@@ -7,6 +8,10 @@ namespace GrymAdministrationConsole
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+
+            List<Student> students = new();
+
         }
     }
 }

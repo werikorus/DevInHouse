@@ -41,11 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActivityClass.cs" />
-    <Compile Include="Employee.cs" />
-    <Compile Include="Equipament.cs" />
-    <Compile Include="StatusEnum.cs" />
-    <Compile Include="Student.cs" />
+    <Compile Include="Entities\ActivityClass.cs" />
+    <Compile Include="Entities\Employee.cs" />
+    <Compile Include="Entities\Equipament.cs" />
+    <Compile Include="Enums\StatusEnum.cs" />
+    <Compile Include="Entities\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
