@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using practiceAPI.Models;
 using System;
 using System.Collections.Generic;
@@ -13,8 +14,11 @@ namespace practiceAPI.Controllers
     [ApiController]
     public class AutoresController : ControllerBase
     {
-        // GET: api/<AutorController>
+        
         [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public IEnumerable<Autor> Get()
         {
             return new List<Autor>
@@ -60,15 +64,18 @@ namespace practiceAPI.Controllers
                 }
             };
 
-            //first or default se não tiver resultado eele traz default para não dar erro
+            //first or default se não tiver resultado ele traz default para não dar erro
             Autor result = autores.FirstOrDefault(x => x.Id == id);
 
             return result;
         }
 
         // POST api/<AutorController>
-        [HttpPost]
-        public List<Autor> Post([FromBody] Autor autor)
+        [HttpPost]        
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public  IActionResult Post([FromBody] Autor autor)
         {
             var autores = new List<Autor>
             {
@@ -91,7 +98,7 @@ namespace practiceAPI.Controllers
 
             autores.Add(autor);
 
-            return autores;
+            return StatusCode(201);
         }
 
         // PUT api/<AutorController>/5
