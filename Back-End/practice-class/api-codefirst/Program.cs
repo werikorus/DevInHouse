@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace practiceAPI
+namespace api_codefirst
 {
     public class Program
     {
@@ -24,10 +24,3 @@ namespace practiceAPI
                 });
     }
 }
-
-
-
-
-
-
-// Scaffold-DbContext "Server=DESKTOP-GH6JOP4\SQLEXPRESS;Database=Livraria;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -ContextDir Context -Context LivrariaContext
