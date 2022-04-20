@@ -10,5 +10,7 @@ namespace api_codefirst.Models
         public int Id { get; set; }
         public string Nome { get; set; }
         public ICollection<Contato> Contatos { get; set; }
+
+        public ICollection<Imovel> Imoveis { get; set; }
     }
 }
