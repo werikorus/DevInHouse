@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PN3kCja4JUUHv1olm8DgsKibecyTRlUj4Obtx2TRTPrhvjOPmlbQfgDEZQDVLURuApOK+KZmyQU5oEdh0OIAkQ==",
+  "dgSpecHash": "bKXwb9svSPMnRlP7SG/GbW1ZpW0tPMvAhly4GLQu75adfbxWOvKwY5woqbmMXzSuRNELosUIKXGxcK8tE+17Zw==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\api-codefirst\\api-codefirst.csproj",
+  "projectFilePath": "c:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\api-codefirst\\api-codefirst.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\werik\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\werik\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.16\\microsoft.aspnetcore.jsonpatch.5.0.16.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\api-codefirst\\api-codefirst.csproj": {}
+    "c:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\api-codefirst\\api-codefirst.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\api-codefirst\\api-codefirst.csproj": {
+    "c:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\api-codefirst\\api-codefirst.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\api-codefirst\\api-codefirst.csproj",
+        "projectUniqueName": "c:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\api-codefirst\\api-codefirst.csproj",
         "projectName": "api-codefirst",
-        "projectPath": "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\api-codefirst\\api-codefirst.csproj",
+        "projectPath": "c:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\api-codefirst\\api-codefirst.csproj",
         "packagesPath": "C:\\Users\\werik\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\api-codefirst\\obj\\",
+        "outputPath": "c:\\Projetos\\DevinHouse\\DevInHouse\\Back-End\\practice-class\\api-codefirst\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
